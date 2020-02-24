@@ -1,6 +1,6 @@
 # Newscatcher
 Programmatically collect normalized news from (almost) any website.
-By [newscatcherapi.com](newscatcherapi.com).
+By [newscatcherapi.com](https://www.newscatcherapi.com).
 
 ## Demo
 ![](gifs/newscatcherdemo.gif)
