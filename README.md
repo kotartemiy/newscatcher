@@ -3,7 +3,7 @@ Programmatically collect normalized news from (almost) any website.
 By [newscatcherapi.com](https://www.newscatcherapi.com).
 
 ## Demo
-![](gifs/newscatcherdemo.gif)
+![](newscatcherdemo.gif)
 
 ## Motivation
 While working on newscatcherapi -- JSON API to query the news articles,
