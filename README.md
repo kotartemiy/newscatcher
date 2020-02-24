@@ -1,6 +1,6 @@
 # Newscatcher
 Programmatically collect normalized news from (almost) any website.
-By [newscatcherapi.com][1].
+By [newscatcherapi.com](newscatcherapi.com).
 
 ## Demo
 ![](gifs/newscatcherdemo.gif)
@@ -65,6 +65,5 @@ or
 MIT
 
 
-[1]:	%3Chttps://newscatcherapi.com/%3E
 [3]:	%3Chttps://pythonhosted.org/feedparser/index.html%3E
 [4]:	%3Chttps://pythonhosted.org/feedparser/reference.html%3E
