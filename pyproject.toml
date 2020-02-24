@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "newscatcher"
+version = "0.1.0"
+description = "Get the normalized latest news from (almost) any website"
+authors = ["Artem Bugara <bugara.artem@gmail.com>",
+	   "Maksym Sugonyaka <sugonyaka.maksym@gmail.com>"]
+readme = "README.md"
+homepage = "https://www.newscatcherapi.com"
+license = "MIT"
+keywords = ["News", "RSS", "Scraping", "Data Mining"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.23.0"
+feedparser = "^5.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
