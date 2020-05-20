@@ -54,7 +54,7 @@ Get the latest news from [nytimes.com](https://www.nytimes.com/) **politics** fe
 ```python
 nc = Newscatcher(website = 'nytimes.com', topic = 'politics')
 
-results = nc.search()
+results = nc.get_news()
 articles = results['articles']
 ```
 

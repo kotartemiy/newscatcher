@@ -182,12 +182,12 @@ class Newscatcher:
             return
 
         if n == None or len(feed['entries']) <= n:
-            articles = feepoetry initd['entries']  # ['summary']#[0].keys()
+            articles = feed['entries']  # ['summary']#[0].keys()
         else:
             articles = feed['entries'][:n]
 
         db.close()
-        return {'url': self.url, 'main_topic': topic,
+        return {'url': self.url, 'topic': topic,
                 'language': language, 'country': country, 'articles': articles}
 
 
