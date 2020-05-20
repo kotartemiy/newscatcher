@@ -2,7 +2,6 @@ __version__ = '0.2.0'
 
 # Retrieve and analyze
 # 24/7 streams of news data
-import sys
 import sqlite3
 #import requests
 import feedparser

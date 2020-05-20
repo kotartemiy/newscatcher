@@ -11,7 +11,7 @@ self-sufficient, you can just use it. No dependency on external services/API*)
 
 ## Motivation
 While working on [newscatcherapi](https://newscatcherapi.com/) - JSON API 
-to query the news articles,
+to query news articles,
 I came up with an idea to make a simple Python package that would allow
 to easily grab the live news data. 
 
@@ -40,7 +40,7 @@ nc = Newscatcher(website = 'nytimes.com')
 results = nc.get_news()
 
 # results.keys()
-# 'url', 'language', 'country', 'articles'
+# 'url', 'topic', 'language', 'country', 'articles'
 
 # Get the articles
 articles = results['articles']
@@ -105,7 +105,7 @@ american_english_politics_urls = urls(country = 'US', topic = 'politics', langua
 ```python
 from newscatcher import Newscatcher
 
-nc = Newscatcher(website, topic = None)
+Newscatcher(website, topic = None)
 ```
 **Please take the base form url of a website** (without `www.`,neither `https://`, nor `/` at the end of url).
 
@@ -200,7 +200,7 @@ If you want to search for any news data, consider using [our API](https://newsca
 
 [Maksym Sugonyaka](https://www.linkedin.com/mwlite/in/msugonyaka) - co-founder of Newscatcher, made v.0.1.0
 
-[Becket Trotter](https://www.linkedin.com/in/beckettrotter/) - Python Developper, made v.0.2.0
+[Becket Trotter](https://www.linkedin.com/in/beckettrotter/) - Python Developer, made v.0.2.0
 
 ## Licence
 MIT
