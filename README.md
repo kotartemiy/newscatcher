@@ -3,8 +3,7 @@
 
 Filter by **topic**, **country**, or **language**.
 
-By [newscatcherapi.com](https://www.newscatcherapi.com) (*this package is fully 
-self-sufficient, you can just use it. No dependency on external services/API*)
+Created by [newscatcherapi.com](https://www.newscatcherapi.com) but you do not need anything from us or from anyone else to get the software going, it just works out of the box.
 
 ## Demo
 ![](newscatcherdemo.gif)
