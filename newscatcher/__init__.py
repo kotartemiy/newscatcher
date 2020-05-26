@@ -135,13 +135,11 @@ class Newscatcher:
         for headline in headlines:
             if i < 10:
                 print(str(i) + ".   |  " + headline)
-                i += 1
             elif i in list(range(10, 100)):
                 print(str(i) + ".  |  " + headline)
-                i += 1
             else:
                 print(str(i) + ". |  " + headline)
-                i += 1
+            i += 1
 
     def get_news(self, n=None):
         # return results based on current stream
