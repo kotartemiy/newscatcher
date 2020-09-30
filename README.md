@@ -1,4 +1,4 @@
-# Newscatcher
+# Newscatcher - Catch news from every website
 **Programmatically collect normalized news from (almost) any website.**
 
 Filter by **topic**, **country**, or **language**.
@@ -181,7 +181,7 @@ Supported languages:
 
 
 
-## Tech/framework used
+## Tech/Framework Used
 The package itself is nothing more than a SQLite database with 
 RSS feed endpoints for each website and some basic wrapper of
 [feedparser](https://pythonhosted.org/feedparser/index.html).
