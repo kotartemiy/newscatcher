@@ -5,7 +5,7 @@ Filter by **topic**, **country**, or **language**.
 
 Created by [newscatcherapi.com](https://www.newscatcherapi.com) but you do not need anything from us or from anyone else to get the software going, it just works out of the box.
 
-## Demo
+## Demonstration
 ![](newscatcherdemo.gif)
 
 ## Motivation
