@@ -142,7 +142,7 @@ ___
 Those functions exist to help you navigate through this package
 
 ___
-```python
+```python 3
 from newscatcher import describe_url
 ```
 
